@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import TransitionsModal from './components/modal';
+// import OutlinedButtons from './components/home';
+// import TransitionsModal from './components/modal/add';
+// import SimpleModal from './components/yogita';
+import BasicModal from './components/basic';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <TransitionsModal /> */}
+      {/* <OutlinedButtons /> */}
+      {/* <SimpleModal /> */}
+      <BasicModal />
     </div>
   );
 }
